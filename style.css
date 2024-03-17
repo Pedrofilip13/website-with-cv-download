@@ -1,0 +1,91 @@
+body{
+    font-family: Inter;
+    background: linear-gradient(
+    to right,
+    #feb00b 0%,
+    #feb00b 50%,
+    white 50%,
+    white 100%
+  );
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+    font-size: 15px;
+}
+
+#container{
+    border-color: #f6ae0c ;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 20px;
+    background: linear-gradient(
+    to right,
+    #ffb91b  0%,
+    #ffb91b  50%,
+    white 50%,
+    white 100%
+  );
+    padding-top: 35px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#navbar{
+    display: flex;
+}
+
+#right{
+    width: 50%;
+    text-align: center;
+}
+
+#left{
+    width: 50%;
+}
+p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(99, 92, 92);
+    padding-right: 10px;
+}
+
+.nvbar-items{
+    text-decoration: none;
+    display: inline;
+    color:black;
+    font-family: Inter;
+    padding-right: 20px ;
+    padding-left:20px;
+    font-size: 17px;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    color:red;
+}
+
+#title{
+    color:red;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 10px;
+    width: 138px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
