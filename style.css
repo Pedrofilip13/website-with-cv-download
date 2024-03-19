@@ -89,3 +89,7 @@ button{
     font-size: 15px;
     font-weight: bold;
 }
+
+button:hover{
+    background-color: rgb(150, 6, 6);
+}
